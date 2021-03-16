@@ -140,6 +140,10 @@
     .header img{
         display: none;
     }
+    .info,
+    .contacts{
+        padding: 25px;
+    }
     .footer{
         flex-direction: column;
         justify-content: center;

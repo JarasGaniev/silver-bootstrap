@@ -78,7 +78,9 @@
     text-decoration: none;
     color: #7f7f7f;
     display: flex;
-
+}
+.contacts a:hover{
+    color: #4581b7;
 }
 /* footer */
 .footer{

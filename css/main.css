@@ -15,7 +15,7 @@
     justify-content: center;
 }
 .navbar-brand{
-    margin: 50px auto 60px;
+    margin: 50px auto;
 }
 .navbar-toggler{
     width: 100%;
@@ -25,6 +25,7 @@
 }
 .navbar__list a{
     margin: 0 20px;
+    padding-bottom: 15px;
     font-size: 18px;
     line-height: 18px;
     color: #bab9b9;
@@ -44,7 +45,45 @@
 /* header */
 .header img{
     width: 100%;
+    margin: 50px 0 30px;
 }
+/* section */
+.section{
+    width: 100%;
+    min-height: 200px;
+}
+.info, .contacts{
+    margin-bottom: 25px;
+    background: #f0f0f0;
+    padding: 50px 95px 95px 40px;
+    overflow: hidden;
+}
+.info h2, .contacts h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #4581b7;
+    margin-bottom: 25px;
+}
+.info p, .contacts p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #7f7f7f;
+}
+.contacts{
+    padding: 50px;
+    border-left: 30px solid #fff;
+}
+.contacts a{
+    margin-top: 50px;
+    text-decoration: none;
+    color: #7f7f7f;
+    display: flex;
+
+}
+
+
+
+
 
 
 
@@ -60,6 +99,10 @@
     .navbar__list a{
         margin: 5px 0;
     }
+    .contacts{
+        border-left: 0;
+    }
+    
 }
 @media (max-width: 767.9px) {}
 @media (max-width: 575.9px) {
